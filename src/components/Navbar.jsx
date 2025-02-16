@@ -38,9 +38,13 @@ const Navbar = () => {
 
         {/* Right Section - Login Button */}
         <div className="hidden md:flex">
-          <button className="btn btn-outline border-teal-600 text-teal-600 hover:bg-teal-600 hover:text-white">
-            Log In
-          </button>
+          <lord-icon
+            src="https://cdn.lordicon.com/kdduutaw.json"
+            trigger="morph"
+            stroke="bold"
+            state="morph-group"
+            style={{ width: "40px", height: "40px" }}
+          ></lord-icon>
         </div>
 
         {/* Mobile Menu */}
@@ -68,7 +72,9 @@ const Navbar = () => {
         </div>
       </nav>
       <div className="text-white text-2xl md:text-1xl flex flex-col justify-center items-center h-full space-y-4 px-4">
-        <span className="font-bold text-center">Buy Medicines and Essentials</span>
+        <span className="font-bold text-center">
+          Buy Medicines and Essentials
+        </span>
         <div className="relative w-full max-w-lg">
           <input
             type="text"
