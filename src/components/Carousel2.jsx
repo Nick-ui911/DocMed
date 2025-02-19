@@ -27,7 +27,7 @@ const products = [
 
 const Carousel2 = () => {
   const handleAddToCart = (productName) => {
-    toast.success(`To Get This ${productName} Login First! 🛒`, {
+    toast.success(`To Get This ${productName} You have to Login First! 🛒`, {
       position: "top-right",
       autoClose: 2000,
       hideProgressBar: false,
